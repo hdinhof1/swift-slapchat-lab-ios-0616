@@ -70,6 +70,10 @@ class DataStore : NSObject {
         message3.content = "Hey you up 😜"
         message3.createdAt = NSDate()
         
+        let message4 = NSEntityDescription.insertNewObjectForEntityForName(Message.entityName, inManagedObjectContext: self.managedObjectContext) as! Message
+        message4.content = "Oh I c 😔"
+        message4.createdAt = NSDate()
+        
         saveContext()
         fetchData()
     }
