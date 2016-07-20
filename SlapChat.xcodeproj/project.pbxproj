@@ -99,10 +99,10 @@
 		3D7AE43B1D3B2FCE00964D7D /* SlapChat */ = {
 			isa = PBXGroup;
 			children = (
-				BA33C5B31D4015C300BC66C5 /* AddViewController.swift */,
 				BA33C5A71D3FEBAB00BC66C5 /* Message+CoreDataProperties.swift */,
 				BA33C5A81D3FEBAB00BC66C5 /* Message.swift */,
 				3D7AE43C1D3B2FCE00964D7D /* AppDelegate.swift */,
+				BA33C5B31D4015C300BC66C5 /* AddViewController.swift */,
 				3D7AE46D1D3B2FE900964D7D /* DataStore.swift */,
 				3D7AE46F1D3B30FC00964D7D /* TableViewController.swift */,
 				BA33C5A41D3FEB3900BC66C5 /* slapChat.xcdatamodeld */,

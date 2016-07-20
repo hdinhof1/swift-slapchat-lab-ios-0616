@@ -30,6 +30,7 @@ class TableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
         dataStore.fetchData()
+        messagesVC = self.dataStore.messages
         self.tableView.reloadData()
     }
     
